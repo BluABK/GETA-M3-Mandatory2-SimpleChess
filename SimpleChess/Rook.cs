@@ -10,7 +10,7 @@
 
         public override bool Move(string fromPosition, string toPosition)
         {
-            throw new System.NotImplementedException();
+            return fromPosition[0] == toPosition[0] || fromPosition[1] == toPosition[1];
         }
     }
 }
