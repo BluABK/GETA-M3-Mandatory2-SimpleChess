@@ -4,9 +4,8 @@ namespace SimpleChess
 {
     internal class Bishop : Piece
     {
-        private const string symbol = "LPR";
         public Bishop() 
-            : base(symbol)
+            : base("LPR")
         {
         }
 
